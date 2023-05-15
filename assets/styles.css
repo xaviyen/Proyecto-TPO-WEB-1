@@ -1,0 +1,30 @@
+body{ 
+    font-family: 'Times New Roman', Times, serif ;
+    margin: auto;
+}
+
+
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: yellow;
+}
+
+#left_side{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: aqua;
+}
+
+#superior{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+background-color: orange;
+}
