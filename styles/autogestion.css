@@ -1,18 +1,21 @@
 /* Estilos para el menú de navegación */
  *{
     font-family: 'Ubuntu', sans-serif;
- }
+}
 
 ul {
     /* Probar funcionalidad y estetica
     background: rgb(0,99,11);
     background: radial-gradient(circle, rgba(0,99,11,1) 20%, rgba(0,12,132,1) 86%); */ 
-    background-image: url(/assets/img/fondo-tl-002.jpg);
+    /*background-image: url(/assets/img/fibra.jpg);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkgreen;
+    /*background-color: rgb(14, 19, 14);*/
     
 }
 
@@ -20,8 +23,7 @@ ul {
 li {
     float: left;
     border-right: 1px solid transparent;
-    
-       
+
 }
 
 li a {
@@ -38,29 +40,17 @@ li a:hover:not(.active){
     background-color: transparent;
     opacity: 0.7;
 }
-
-.active{
-    background-color: darkblue;
-}
-
-/* Imagen fondo */
-.fondo{
-    
-    background-image: url(/assets/img/fondo-tl-002.jpg);
+/* contenido */
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-image: url(/assets/img/fibra.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: white;
-
-}
-
-
-/* Estilo formulario */
-.formu{
-    background: transparent;
-    margin: 30px;
-    box-sizing: border-box;
-    
-}
+    }
 
 /* Estilo botón */
 .button {
@@ -75,12 +65,12 @@ li a:hover:not(.active){
     font-size: 16px;
     resize: none;
     
-  }
+}
 
-  .button:hover {
+.button:hover {
     background-color: transparent;
     color: black;
-  }
+}
 
 /* Estilos para el contenido principal */
 h1 {
@@ -100,26 +90,34 @@ p {
     color:black;
     opacity: 0.6;
     border-radius: 5px;
+    word-wrap: break-word;
 }
-form{
-    display: flex;
+.formulario{
+    display:flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    gap: 2px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    margin: 10px;
     background-color: white;
     opacity: 0.6;
     border-radius: 5px;
     color: black ;
-    
-}
-/* Estilos para el footer */
+    word-wrap: break-word;
+    }
+.casilla{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        }
 
-/* footer {
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
+footer{
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
-} */
-    
+    padding: 10px 0;
+    text-align: center;
+}

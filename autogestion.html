@@ -11,59 +11,55 @@
 <header>
      <!-- Menú de navegación -->
     <nav>
-        <ul>
+        <ul id="menu_navegacion">
             <li><a class="active" href="index.html"><img src="./assets/img/comienzo.png" title="Inicio"height="50px" width="50px"></a></li>
-            <li style="background-color: chocolate;"><a href="institucional.html"><img src="./assets/img/manual.png" title="Institucional"height="50px" width="50px"></a></li>
-            <li style="background-color: darkgreen;"><a href="servicios.html"><img src="./assets/img/apoyo-tecnico.png" title="Servicios"height="50px" width="50px"></a></li>
-            <li style="float:right; background-color: red;"><a href="autogestion.html"><img src="./assets/img/charlar.png" title="Autogestión"height="50px" width="50px"></a></li>
+            <li><a href="institucional.html"><img src="./assets/img/manual.png" title="Institucional"height="50px" width="50px"></a></li>
+            <li><a href="servicios.html"><img src="./assets/img/apoyo-tecnico.png" title="Servicios"height="50px" width="50px"></a></li>
+            <li><a href="autogestion.html"><img src="./assets/img/charlar.png" title="Autogestión"height="50px" width="50px"></a></li>
         </ul>
     </nav>
-
 </header>
-<body class="fondo">
-    
-   
+<body class="content">
     <!-- Contenido principal -->
         <h1>Autogestion</h1>
             <p>Tenes dudas, consultas sobre nuestros paquetes o como funciona nuestra politica de soporte, completa el siguiente formulario y te contactaremos a la brevedad.</p>
         <br>
         <br>
-        <form action="/assets/form.txt" method="post">
-            <ul class="formu">
+        <form  action="/assets/form.txt" method="post">
+            <ul class="formulario">
+            <div class="casilla">
                 <li>
                     <label for="name">Nombre: </label>
                     <input type="text" id="name" name="user_name">
                 </li>
-                        
+            </div>
+                <br>
+            <div class="casilla">
                 <li>
                     <label for="mail">Correo electronico: </label>
                     <input type="email" id="mail" name="user_name">
                 </li>
-                <br>
-                <br>
+            </div>
+            <br>
+            <div class="casilla">
                 <li>
-                    <label for="msg">Mensaje: </label>
-                    <textarea id="text" name="user_message" rows="5" cols="75" style="resize: none;" >Ingrese aqui los inconvenientes que posea por favor o las sugerencias para nuestro equipo.
+                    <label for="msg">Mensaje:
+                    <textarea id="text" name="user_message" rows="5" cols="55">Ingrese aqui los inconvenientes que posea por favor o las sugerencias para nuestro equipo.
                     </textarea>
+                </label>
                 </li>
-                <br>
-                <br>
-                <br>
-                <br>
-                <li class="button" style="margin-left: 70px;">
+            </div>
+               <br>
+                <li class="button">
                     <button type="submit">
                         Enviar
                     </button>
                 </li>
             </ul>
         </form>
-        
-    
-</body>
-<br>
-<br>
-    <!-- Footer -->
-    <footer style="text-align: center; position: relative;">
+<!-- Footer -->
+    <footer>
         <strong>© 2023 Mi empresa - Todos los derechos reservados</strong>
     </footer>
+    </body>
 </html>
