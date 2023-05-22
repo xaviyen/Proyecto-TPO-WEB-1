@@ -1,3 +1,6 @@
+
+
+
 /* Estilos para el menú de navegación */
  *{
     font-family: 'Ubuntu', sans-serif;
@@ -15,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: rgb(14, 19, 14);*/
+    background-color: rgba(24, 26, 24, 0.534);
     
 }
 
@@ -121,3 +124,4 @@ footer{
     padding: 10px 0;
     text-align: center;
 }
+
