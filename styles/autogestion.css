@@ -1,5 +1,5 @@
-/* Estilos para el menú de navegación */
- *{
+*/* Estilos para el menú de navegación */
+*{
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -121,3 +121,4 @@ footer{
     padding: 10px 0;
     text-align: center;
 }
+
