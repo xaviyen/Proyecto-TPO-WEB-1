@@ -70,7 +70,8 @@ section {
     padding: 1rem;
     margin: 1rem;
     margin-right: 2rem;
-    background: gray;
+     border-radius: 25px;
+    background: rgba(170, 166, 166, 0.8);
     opacity: 0.9;
     box-shadow: 0 3px 10px 0 rgba(#000, 0.1);
     border-radius: 5px;
@@ -81,7 +82,9 @@ h2 {
     display: flex;
     color: white;
     text-align: center;
+    text-shadow: 0 0 30px #f7f7f1;
     background-color: black;
+    border-radius:15px;;
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-style: italic;
