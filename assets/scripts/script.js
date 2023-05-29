@@ -1,13 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('formulario');
-
   form.addEventListener("submit", onformSubmit);
 });
 
-function validarFormulario(evento){
-evento.preventDefault();
-
-}
+//funcion del formulario (captura de datos y validacion)
 
 function onformSubmit(event) {
   event.preventDefault();
@@ -21,3 +17,14 @@ function onformSubmit(event) {
   }
   console.log(`Nombre: ${name}, correo electrónico: ${email}, mensaje: ${text}`);
 }
+
+
+
+
+
+
+
+
+
+
+
